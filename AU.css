@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-position: center;
+   
+    transition: .5s;
+}
+.user img{
+    width: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.social-links img{
+    width: 50px;
+    border-radius: 0;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+.user-box p{
+    margin: 20px 0;
+    color: #c0c0c0;
+    line-height: 25px;
+}
+
+.user{
+    height: 600px;
+}
+.img-2
+{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.doyel
+{
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
+.centre
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.side
+{
+    position: absolute;
+    top: 55%;
+    left: 11.8%;
+    transform: translate(-50%, -50%);
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  .pragna
+{
+    position:absolute;
+    top: 550px;
+    right: 100px;
+    z-index: 10;
+}
+.side1
+{
+    position: absolute;
+    top: 40%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+}
+.pr
+{
+    position: absolute;
+    top: 62%;
+    left: 11.5%;
+    transform: translate(-50%, -50%);
+}
+.sr
+{
+    position: absolute;
+    top: 40%;
+    left: 86.5%;
+    transform: translate(-50%, -50%);
+}
+.sree
+{
+    position:absolute;
+    top: 500px;
+    right: 100px;
+    z-index: 10;
+} 
+.dropdown-submenu {
+    position: relative;
+  }
+  
+  .dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+  }
+  
+  .dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+  }
+  
+  .dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+  }
+  
+  .dropdown-submenu.pull-left {
+    float: none;
+  }
+  
+  .dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+  }
